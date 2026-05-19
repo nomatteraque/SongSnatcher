@@ -42,6 +42,9 @@ def download_audio(url):
         }],
         'noplaylist': False,
         'quiet': False,
+        'extractor_args': {
+            'youtube': ['client=ANDROID', 'client=IOS']
+        },
     }
 
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
