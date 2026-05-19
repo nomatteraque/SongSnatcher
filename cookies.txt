@@ -1,0 +1,12 @@
+# Netscape HTTP Cookie File
+# https://curl.haxx.se/rfc/cookie_spec.html
+# This is a generated file! Do not edit.
+
+.youtube.com	TRUE	/	TRUE	1813758904	PREF	f4=4000000&tz=Europe.London
+.youtube.com	TRUE	/	TRUE	1813326903	SOCS	CAISFggDEgk5MTcwMDUwOTIaBWVuLUdCIAEaBgiA0K7QBg
+.youtube.com	TRUE	/	TRUE	1779200703	GPS	1
+.youtube.com	TRUE	/	TRUE	0	YSC	dNgveZYTUYo
+.youtube.com	TRUE	/	TRUE	1794750904	VISITOR_INFO1_LIVE	43aoUaNG4io
+.youtube.com	TRUE	/	TRUE	1794750904	VISITOR_PRIVACY_METADATA	CgJHQhIEGgAgYg%3D%3D
+.youtube.com	TRUE	/	TRUE	1794750903	__Secure-YNID	18.YT=gHDbGQIzMpYloMEEeI5_rVALc92mrPtSGDeUkIsoCksVhCumpWL1vPs--cvBw4egpCD81yyIspTZebpMGwBUKXwlBgPry7nfC3kV7iaWrsJ3L7yIsbHE4ktMsOTr3Y0feBWeSIaZxAACbtOJhf0I0Tds86vJQzCwgez7WssvaFLJ6AXw4qtMaXOPsWjYj88Xj7QdxoBbg-V8SO1pqkfbyspQ5h3akeSBUfBfPK060pJSYtxlr3VyRXBfqFPTT0PE7JGLDCtSJEmzGSS7ItO8s7YPxbnfpXQ6GHkh5C3Uwkkt3PBy4_qsnCc__cyDRdg7QHhB__VDqNgmZoR1StQ0eg
+.youtube.com	TRUE	/	TRUE	1794750903	__Secure-ROLLOUT_TOKEN	CJCxyYmvrfTqnwEQrcm7tMDFlAMYnojKtMDFlAM%3D
