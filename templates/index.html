@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SongSnatcher</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <div class="container">
+        <h1 class="glitch" data-text="SongSnatcher">SongSnatcher</h1>
+        <p class="subtitle">Enter the target link to extract audio payload.</p>
+        
+        <form id="download-form">
+            <div class="input-group">
+                <span class="prompt-symbol">></span>
+                <input type="text" id="url-input" placeholder="https://www.youtube.com/..." autocomplete="off" required>
+            </div>
+            <button type="submit" class="btn">EXECUTE</button>
+        </form>
+        
+        <div id="status-container" class="hidden">
+            <p id="status-text" class="status-msg">
+                <span class="status-label"></span><span class="dots"></span>
+            </p>
+        </div>
+    </div>
+
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
