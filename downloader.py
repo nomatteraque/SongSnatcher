@@ -42,9 +42,6 @@ def download_audio(url):
         'noplaylist': False,
         'quiet': False,
         'rm_cachedir': True,
-        'extractor_args': {
-            'youtube': ['player_client=tv,web_creator,ios']
-        },
     }
 
     # Definitively bypass bot detection by using a cookies file if provided
