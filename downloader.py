@@ -42,6 +42,7 @@ def download_audio(url):
         }],
         'noplaylist': False,
         'quiet': False,
+        'rm_cachedir': True,
         'extractor_args': {
             'youtube': ['player_client=android,web_creator,ios']
         },
