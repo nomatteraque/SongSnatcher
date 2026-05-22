@@ -33,7 +33,6 @@ def download_audio(url):
     temp_folder = get_temp_folder()
     
     ydl_opts = {
-        'format': 'm4a/bestaudio/best',
         'outtmpl': os.path.join(temp_folder, '%(title)s.%(ext)s'),
         'postprocessors': [{
             'key': 'FFmpegExtractAudio',
