@@ -43,7 +43,7 @@ def download_audio(url):
         'quiet': False,
         'rm_cachedir': True,
         'extractor_args': {
-            'youtube': ['player_client=android,web_creator,ios']
+            'youtube': ['player_client=tv,web_creator,ios']
         },
     }
 
