@@ -42,15 +42,15 @@ def download_audio(url):
         }],
         'noplaylist': False,
         'quiet': False,
+        'extractor_args': {
+            'youtube': ['player_client=android,web_creator,ios']
+        },
     }
 
     # Definitively bypass bot detection by using a cookies file if provided
     cookie_path = os.path.join(os.path.dirname(os.path.abspath(__file__)), 'cookies.txt')
     if os.path.exists(cookie_path):
         ydl_opts['cookiefile'] = cookie_path
-    else:
-        # Fallback to aggressive client masking if cookies aren't uploaded yet
-        ydl_opts['extractor_args'] = {'youtube': ['player_client=android,web_creator,ios']}
 
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
         ydl.download([url])
