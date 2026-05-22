@@ -33,6 +33,7 @@ def download_audio(url):
     temp_folder = get_temp_folder()
     
     ydl_opts = {
+        'format': 'ba/bestaudio/best',
         'outtmpl': os.path.join(temp_folder, '%(title)s.%(ext)s'),
         'postprocessors': [{
             'key': 'FFmpegExtractAudio',
@@ -42,6 +43,9 @@ def download_audio(url):
         'noplaylist': False,
         'quiet': False,
         'rm_cachedir': True,
+        'extractor_args': {
+            'youtube': ['player_client=ios,android', 'player_skip=webpage']
+        },
     }
 
     # Definitively bypass bot detection by using a cookies file if provided
